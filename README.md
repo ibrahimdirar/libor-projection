@@ -1,0 +1,2 @@
+# libor-projection
+Produces a rough projection for LIBOR by looking at historic LIBOR data. This is done by using the spread of historic LIBOR premiums (LIBOR rate - Bank of England Base Rate for that given date) and through looking at the distribution curve to generate a projection. A configurable number (default: 1000) of simulations are then fed into a Monte Carlo simulation. As it stands, the output is currently a graph with projected LIBOR and projected Bank of England Base Rates, but the plan is to get the information in other more useful formats.
